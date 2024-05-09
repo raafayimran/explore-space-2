@@ -1,0 +1,25 @@
+.home-hero-container {
+  border-radius: 12px;
+  margin: auto 16px;
+}
+
+.home-hero-what-text {
+  padding: 0px 40px;
+}
+
+.home-hero-what-title {
+  font-size: 20px;
+  text-align: center;
+}
+
+.home-hero-container-dark {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: #712cf9 0.25px solid;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.home-hero-container-light {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: #fff 0.25px solid;
+  color: rgb(255, 255, 255);
+}

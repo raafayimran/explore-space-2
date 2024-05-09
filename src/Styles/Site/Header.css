@@ -1,0 +1,136 @@
+header {
+  padding: 16px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.header-container {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+
+  border-radius: 12px;
+  padding: 4px 8px;
+
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+}
+
+.header-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0px 0px 0px 32px;
+  padding-right: 16px;
+  text-transform: uppercase;
+  text-wrap: nowrap;
+}
+
+.nav-ul {
+  display: flex;
+  list-style-type: none;
+  margin-right: 32px;
+  padding-left: 16px;
+}
+
+.nav-item {
+  padding: 0px 8px 0px 8px;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  color: inherit;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  color: #712cf9;
+}
+
+.header-container-light {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: #fff 0.25px solid;
+}
+
+.header-container-dark {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: #712cf9 0.25px solid;
+}
+
+.header-mobile-nav {
+  background-color: transparent;
+  margin: auto 32px auto auto;
+  position: relative;
+  z-index: 3;
+}
+
+.header-mobile-nav-links {
+  margin: 4px auto;
+  text-align: right;
+}
+
+.header-mobile-nav-links a {
+  background-color: #712cf9;
+  border: #712cf9 0.25px solid;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.header-mobile-nav-links a:nth-child(1) {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.header-mobile-nav-links a:nth-child(3) {
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.header-mobile-nav-links-dark a:hover {
+  background-color: black;
+  border: #712cf9 0.25px solid;
+}
+
+.header-mobile-nav-menu {
+  border: 0.25px transparent solid;
+  border-radius: 12px;
+  font-family: "Space Mono", monospace;
+  font-size: 24px;
+  margin: 4px;
+  padding: 8px 14px;
+  text-transform: uppercase;
+}
+
+.header-mobile-nav-menu:hover {
+  cursor: pointer;
+}
+
+.header-mobile-nav-menu-dark:hover {
+  border: 0.25px #712cf9 solid;
+  background-color: black;
+}
+
+.header-mobile-nav-menu-dark {
+  background-color: #712cf9;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+@media screen and (max-width: 540px) {
+  .header-title {
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .header-mobile-nav {
+    margin-right: 0px;
+  }
+
+  .header-mobile-nav-menu {
+    font-size: 20px;
+  }
+}

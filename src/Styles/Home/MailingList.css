@@ -1,0 +1,151 @@
+.mailinglist {
+  background: url("https://images.pexels.com/photos/193003/pexels-photo-193003.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: #712cf9 0.25px solid;
+  border-bottom: #712cf9 0.25px solid;
+  margin: 50px 0px;
+  text-align: center;
+}
+
+.mailinglist-container {
+  padding: 40px 32px;
+}
+
+.mailinglist-title {
+  font-size: 20px;
+}
+
+.mailinglist-text {
+  font-size: 14px;
+}
+
+.mailinglist-names {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mailinglist-fname,
+.mailinglist-lname {
+  margin: auto 20px;
+  text-align: left;
+}
+
+.fname,
+.fname-label,
+.lname,
+.lname-label {
+  display: block;
+  margin: auto auto;
+}
+
+.fname,
+.lname {
+  border: transparent 1px solid;
+  border-radius: 12px;
+  padding: 7.25px 16px;
+  transition: 0.3s;
+}
+
+.fname:hover,
+.lname:hover {
+  border: #712cf9 1px solid;
+}
+
+.fname-label,
+.lname-label {
+  padding: 4px;
+}
+
+.mailinglist-email {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 14px auto;
+  text-align: left;
+}
+
+.email {
+  border: 1px transparent solid;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  min-width: 200px;
+  padding-top: 7.25px;
+  padding-bottom: 7.25px;
+  padding-left: 16px;
+  padding-right: auto;
+  transition: 0.3s;
+}
+
+.email:hover {
+  border: #712cf9 1px solid;
+}
+
+.email-label {
+  display: block;
+  padding: 4px;
+}
+
+.mailinglist-email-elements {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.mailinglist-subscribe {
+  background-color: #712cf9;
+  border: 1px transparent solid;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  font-size: 12px;
+  max-height: 32px;
+  padding: 10px;
+  transform: translateY(2px);
+  transition: 0.3s;
+}
+
+.mailinglist-subscribe:hover {
+  border: #712cf9 1px solid;
+  cursor: pointer;
+}
+
+.mailinglist-dark {
+  border-top: #712cf9 0.25px solid;
+  border-bottom: #712cf9 0.25px solid;
+  color: white;
+}
+
+.mailinglist-light {
+  border-top: #fff 0.25px solid;
+  border-bottom: #fff 0.25px solid;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.input-light {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.mailinglist-container-dark {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.mailinglist-container-light {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.mailinglist-subscribe-dark {
+  color: white;
+}
+
+.mailinglist-subscribe-dark:hover {
+  background-color: black;
+}
+
+.mailinglist-subscribe-light {
+  color: white;
+}
+
+.mailinglist-subscribe-light:hover {
+  background-color: white;
+  color: #712cf9;
+}

@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+  margin: 0px;
+  max-width: 100% !important;
+  overflow-x: hidden;
+}
+
+.header-home-container {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.header-home-container-dark {
+  background-image: url("https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
+.header-home-container-light {
+  background-image: url("https://images.pexels.com/photos/3774895/pexels-photo-3774895.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
